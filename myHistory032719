@@ -1,0 +1,90 @@
+  419  startx &
+  420  ls
+  421  mkdir Lab8b
+  422  cd Lab8b/
+  423  ls
+  424  emacs -nw Sum.c
+  425  clear
+  426  history
+  427  clear
+  428  ls
+  429  less Sum.c 
+  430  clear
+  431  gcc -o Sum Sum.c 
+  432  emacs -nw Sum.c
+  433  gcc -o Sum Sum.c 
+  434  clear
+  435  less Sum.c 
+  436  ls
+  437  rm *~
+  438  clear
+  439  ls
+  440  ./Sum.exe 
+  441  emacs -nw Sum.c
+  442  gcc -o Sum Sum.c 
+  443  clear
+  444  ./Sum.exe 
+  445  ./Sum.exe 
+  446  ./Sum.exe 
+  447  clear
+  448  ./Sum.exe >Sum_output
+  449  ls
+  450  rm *~
+  451  ls
+  452  less Sum_output 
+  453  clear
+  454  ./Sum.exe >>Sum_output
+  455  ./Sum.exe >>Sum_output
+  456  ./Sum.exe >>Sum_output
+  457  less Sum_output
+  458  clear
+  459  ls
+  460  pwd
+  461  ls
+  462  clear
+  463  which git
+  464  git config --global user.name " Hyacinthe Aboudja"
+  465  git config --global user.email haboudja@okcu.edu
+  466  git config --list
+  467  ls
+  468  ls -al
+  469  clear
+  470  git init
+  471  ls -al
+  472  ls
+  473  cd .git/
+  474  ls
+  475  ls -al
+  476  clear
+  477  ls
+  478  cd ..
+  479  clear
+  480  ls
+  481  git status
+  482  git help
+  483  clear
+  484  git status
+  485  git add .
+  486  git status
+  487  clear
+  488  git commit -m " My First version "
+  489  ls
+  490  git status
+  491  emacs -nw Sum.c
+  492  clear
+  493  gcc -o Sum Sum.c 
+  494  ./Sum.exe 
+  495  clear
+  496  git status
+  497  git add .
+  498  ls
+  499  git status
+  500  clear
+  501  git commit
+  502  git status
+  503  git log
+  504  git help
+  505  clear
+  506  git remote add origin https://github.com/haboudja/mySE19
+  507  git push -u origin master
+  508  history >myHistory032719
